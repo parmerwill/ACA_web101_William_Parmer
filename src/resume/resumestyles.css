@@ -15,3 +15,7 @@ section.exp {
     border: solid lightskyblue;
     border-width: 25px;
 } 
+section.ref {
+    text-align: end;
+    background-color: lightsteelblue;
+}
