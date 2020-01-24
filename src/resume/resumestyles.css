@@ -1,0 +1,21 @@
+header {
+    border: solid royalblue;
+    background-color: royalblue;
+    text-align: center;
+    align-content: center;
+}
+section.aboutme {
+    text-align: center;
+    background-color: slategray;
+    border: solid cyan;
+    border-width: 50px;
+}
+section.exp {
+    background-color: lightgrey; 
+    border: solid lightskyblue;
+    border-width: 25px;
+} 
+section.ref {
+    text-align: end;
+    background-color: lightsteelblue;
+}
