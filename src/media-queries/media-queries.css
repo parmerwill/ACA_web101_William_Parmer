@@ -1,0 +1,38 @@
+.container {
+    border: 1px solid red;
+    background-image: url("./vader.jpg");
+}
+ul {
+    border: 1px solid blue;
+    list-style: none;
+    margin: 0;
+    height: 500px;
+    width: 100%;
+    padding: 0;
+}
+li {
+    border: 1px solid rebeccapurple;
+    background: rgb(44, 6, 82);
+    height: 100px;
+    width: 100px;
+    display: block;
+    font-family: Bangers;
+}
+img {
+    height: 100px;
+    width: 100px;
+}
+@media (min-width: 576px){
+    body {
+        background: pink;
+    }
+    li {
+        display: inline-block;
+        background: blue;
+        border-radius: 50%;
+    }
+}
+@media (min-width: 946px)
+
+
+
