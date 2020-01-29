@@ -1,38 +1,32 @@
 .container {
     border: 1px solid red;
-    background-image: url("./vader.jpg");
 }
-ul {
+div.container {
     border: 1px solid blue;
     list-style: none;
     margin: 0;
     height: 500px;
-    width: 100%;
+    width: 80%;
     padding: 0;
+    background-image: url("./Lord.jpg");
+    align-content: center;
 }
-li {
-    border: 1px solid rebeccapurple;
-    background: rgb(44, 6, 82);
-    height: 100px;
-    width: 100px;
-    display: block;
-    font-family: Bangers;
+section {
+    text-align: right;
 }
-img {
-    height: 100px;
-    width: 100px;
+section.Bottom {
+    background-color: darkgray;
+    border: solid 50px darkgray;
+    text-align: center;
 }
-@media (min-width: 576px){
-    body {
-        background: pink;
+@media only screen and(max-width: 576px) {
+    .section {
+        width: 0px;
     }
-    li {
-        display: inline-block;
-        background: blue;
-        border-radius: 50%;
+    .paragraph {
+        width: 100px;
     }
 }
-@media (min-width: 946px)
-
+   
 
 
