@@ -1,0 +1,32 @@
+.container {
+    border: 1px solid red;
+}
+div.container {
+    border: 1px solid blue;
+    list-style: none;
+    margin: 0;
+    height: 500px;
+    width: 80%;
+    padding: 0;
+    background-image: url("./Lord.jpg");
+    align-content: center;
+}
+section {
+    text-align: right;
+}
+section.Bottom {
+    background-color: darkgray;
+    border: solid 50px darkgray;
+    text-align: center;
+}
+@media only screen and(max-width: 576px) {
+    .section {
+        width: 0px;
+    }
+    .paragraph {
+        width: 100px;
+    }
+}
+   
+
+
