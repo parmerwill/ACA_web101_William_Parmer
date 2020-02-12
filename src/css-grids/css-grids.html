@@ -7,42 +7,54 @@
     <link rel="stylesheet" href="cssgrids-styles.css">
 </head>
 <body>
-   <main class="main-container">
-    <div class="grid-container">
-        <style>
-            .header, .footer {
-              display: flex;
-              align-items: center;
-              justify-content: space-between;
-              padding: 0 16px;
-              background-color: #648ca6;
-            }
-            .sidenav {
-              display: flex; /* Will be hidden on mobile */
-              flex-direction: column;
-              grid-area: sidenav;
-              background-color: #394263;
-            }
-          </style>
-        <header class="header">
-            <div class="header__search">Search...</div>
-            <div class="header__avatar">Your face</div>
-        </header>
-        <footer class="footer">
-            <div class="footer__copyright">&copy; 2018 MTH</div>
-            <div class="footer__signature">Made with love by pure genius</div>
-          </footer>
-        <aside class="sidenav">
-            <ul class="sidenav__list">
-                <li class="sidenav__list-item">Item One</li>
-                <li class="sidenav__list-item">Item Two</li>
-                <li class="sidenav__list-item">Item Three</li>
-                <li class="sidenav__list-item">Item Four</li>
-                <li class="sidenav__list-item">Item Five</li>
-              </ul>
-        </aside>
-        <main class="main"></main>
-        <footer class="footer"></footer>
-   </main> 
+  <main class="main-container">
+   <div class="grid-container">
+    <div class="main-overview">
+      <div class="overviewcard">
+        <div class="overviewcard__icon">Overview</div>
+        <div class="overviewcard__info">Card</div>
+      </div>
+      <div class="overviewcard">
+        <div class="overviewcard__icon">Overview</div>
+        <div class="overviewcard__info">Card</div>
+      </div>
+      <div class="overviewcard">
+        <div class="overviewcard__icon">Overview</div>
+        <div class="overviewcard__info">Card</div>
+      </div>
+      <div class="overviewcard">
+        <div class="overviewcard__icon">Overview</div>
+        <div class="overviewcard__info">Card</div>
+      </div>
+    </div>
+    <div class="main-cards">
+      <div class="card">3:00am</div>
+      <div class="card">Card</div>
+      <div class="card">Card</div>
+    </div>
+     <style>
+     </style>
+     <header class="header">
+       <div class="header__search">Search...</div>
+       <div class="header__avatar">Your face</div>
+     </header>
+     <footer class="footer">
+       <div class="footer__copyright">&copy; 2018 MTH</div>
+       <div class="footer__signature">Made with love by pure genius</div>
+     </footer>
+     <aside class="sidenav">
+       <ul class="sidenav__list">
+          <li class="sidenav__list-item">Item One</li>
+          <li class="sidenav__list-item">Item Two</li>
+          <li class="sidenav__list-item">Item Three</li>
+          <li class="sidenav__list-item">Item Four</li>
+          <li class="sidenav__list-item">Item Five</li>
+        </ul>
+     </aside>
+    </div>
+  </main>
+  <main class="main"></main>
+    <footer class="footer"></footer>
+  </main> 
 </body>
 </html>
