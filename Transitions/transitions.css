@@ -1,0 +1,98 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+main:hover .Box1 {
+  width: 100px;
+  height: 100px;
+  transition: 3s;
+  transform: rotate(1080deg);
+  margin-left: 600px
+}
+.box {
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+}
+.Box1 {
+  background-color: red;
+}
+.Box1:hover {
+  width: 100px;
+  height: 100px;
+  transition: 3s;
+  transform: rotate(1080deg);
+  margin-left: 600px;
+
+}
+.Box3:hover {
+  width: 100px;
+  height: 100px;
+  transition: 3s;
+  transform: rotate(1080deg);
+  margin-left: 600px;
+
+}
+.Box5:hover {
+  width: 100px;
+  height: 100px;
+  transition: 3s;
+  transform: rotate(1080deg);
+  margin-left: 600px;
+
+}
+.Box7:hover {
+  width: 100px;
+  height: 100px;
+  transition: 3s;
+  transform: rotate(1080deg);
+  margin-left: 600px;
+
+}
+.Box9:hover {
+  width: 100px;
+  height: 100px;
+  transition: 3s;
+  transform: rotate(1080deg);
+  margin-left: 600px;
+
+}
+.Box11:hover {
+  width: 100px;
+  height: 100px;
+  transition: 3s;
+  transform: rotate(1080deg);
+  margin-left: 600px;
+}
+.Box2:hover {
+  width: 25px;
+  height: 25px;
+  transition: 3s;
+  transform: rotate(-1080deg);
+  margin-right: 600px;
+}
+.Box2 {
+  background-color: purple;
+}.Box3 {
+  background-color: blue;
+}.Box4 {
+  background-color: green;
+}.Box5 {
+  background-color: yellow;
+}.Box6 {
+  background-color: black;
+}.Box7 {
+  background-color: pink;
+}.Box8 {
+  background-color: violet;
+}.Box9 {
+  background-color: aqua;
+}.Box10 {
+  background-color: seagreen;
+}.Box11 {
+  background-color: gold;
+}.Box12 {
+  background-color: silver;
+}
