@@ -1,7 +1,7 @@
 .container {
     border: 1px solid red;
 }
-div.container {
+.container {
     border: 1px solid blue;
     list-style: none;
     margin: 0;
@@ -11,22 +11,46 @@ div.container {
     background-image: url("./Lord.jpg");
     align-content: center;
 }
-section {
+.sidebar {
     text-align: right;
 }
-section.Bottom {
+.Bottom {
     background-color: darkgray;
     border: solid 50px darkgray;
     text-align: center;
 }
+
 @media only screen and (max-width: 576px) {
     .section {
         width: 0px;
+=======
+.links {
+    display: none;
+}
+@media only screen and (max-width: 576px) {
+    .useful-links {
+        text-align: left;
+
     }
-    .paragraph {
-        width: 100px;
+    .social {
+        text-align: right;
+    }
+    .links {
+        width: 100%;
+        height: 300px; 
+        background-color: gray; 
+        display: block !important;      
     }
 }
+@media only screen and (max-width: 850px) {
+    .sidebar {
+        display: none;
+    }
+    .container {
+        width: 100%;
+    }
+}
+
    
 
 
