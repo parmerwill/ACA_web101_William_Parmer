@@ -1,0 +1,18 @@
+header {
+  background-image: url(blackHole.jpg);
+  height: 500px;
+  color: white;
+  font-size: 100px;
+  text-align: center;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  font-size: 50px;
+}
+.fb {
+  border: black solid 2px;
+}
+.insta {
+  border: solid black 2px;
+}
