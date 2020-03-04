@@ -3,23 +3,27 @@ header {
   background-color: black;
   height: 300px;
 }
-
 .head {
   text-align: center;
 }
-.intro {
-  text-align: center;
+main {
+  display: flex;
+  flex-direction: row;
 }
 .links {
-  flex-direction: column;
+  border: solid 2px black;
 }
-.fb {
-  border: 25px solid black;
-  background-color: black;
+.me {
+  border: black solid 2px;
 }
-.li {
-  border: black 25px solid;
+.articles {
+  border: solid black 2px;
 }
-@media only screen and (min-width 576px) {
+@media only screen and (max-width: 576px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+}
   
 

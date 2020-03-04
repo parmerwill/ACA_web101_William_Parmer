@@ -1,0 +1,30 @@
+header {
+  text-align: center;
+  color: red;
+}
+main {
+  border: solid red 2px;
+  height: 60%;
+}
+footer {
+  text-align: center;
+}
+.a {
+  animation: change-text 800ms ease infinite;
+}
+@keyframes change-text {
+  0% {
+    color: orange;
+  }
+  50% {
+    color: orangered;
+  }
+  100% {
+    color: red;
+  }
+}
+@media only screen and (max-width: 576px) {
+  footer {
+    display: none;
+  }
+}
