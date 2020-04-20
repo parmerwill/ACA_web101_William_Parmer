@@ -1,0 +1,43 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+main {
+  background-image: url(LFH.jpg);
+  height: 1000px;
+  width: 85%;
+}
+header {
+  color: blue;
+}
+.head {
+  text-align: center;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+.links {
+  border: solid 2px black;
+}
+.me {
+  border: black solid 2px;
+}
+.articles {
+  border: solid black 2px;
+
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+a {
+  margin: 20px;
+}
+}
+@media only screen and (max-width: 576px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+}
