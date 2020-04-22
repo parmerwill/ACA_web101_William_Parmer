@@ -1,0 +1,35 @@
+img {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.a {
+  position: relative;
+}
+.aa {
+  position: absolute; 
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; 
+  height: 200px;
+  width: 200px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(192, 201, 204);
+}
+.txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.a:hover .aa {
+  opacity: 1;
+}
+.body {
+  display: flex;
+  flex-direction: row;
+}

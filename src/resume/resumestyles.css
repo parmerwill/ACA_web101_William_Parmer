@@ -19,3 +19,6 @@ section.ref {
     text-align: end;
     background-color: lightsteelblue;
 }
+.num {
+    display: none;
+}
