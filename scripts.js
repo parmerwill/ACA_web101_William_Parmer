@@ -53,6 +53,25 @@ const addMarker = (id) => {
 
   changeMarker(id)
 }
+const checkForWin = () => {
+  if(horizontalWin() || verticalWin() || diagonalWin()) {
+    window.alert(`Player ${currentMarker} won!`)
+  } else {
+    changeMarker()
+  }
+}
+
+const horizontalWin = () => {
+  // Your code here to check for horizontal wins
+}
+
+const verticalWin = () => {
+  // Your code here to check for vertical wins
+}
+
+const diagonalWin = () => {
+  // Your code here to check for diagonal wins
+}
 
 
 
