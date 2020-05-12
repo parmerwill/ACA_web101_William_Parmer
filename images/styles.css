@@ -1,0 +1,17 @@
+.img{
+  height: 100%;
+  border: 1px solid red;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+
+}
+.img div{
+  border: 1px solid blue;
+}
+@media (max-width: 600px){
+.img {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+}
+}
