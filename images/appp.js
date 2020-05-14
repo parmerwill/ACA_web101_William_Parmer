@@ -2,25 +2,32 @@ console.log('hello')
 
 let gallery=[
   {name: 'project 1',
-   imgURL: './tictactoe.jpg'
+   imgURL: './tictactoe.jpg',
+   aURL:'https://parmerwill.github.io/ACA_web101_William_Parmer/ind.html'
   },
   {name: 'project 2',
-   imgURL: './'
+   imgURL: './nasa.jpg',
+   aURL:'https://parmerwill.github.io/ACA_web101_William_Parmer/src/nasa/nasa.html'
   },
   {name: 'project 3',
-   imgURL: './'
+   imgURL: './calc.png',
+   aURL:'https://parmerwill.github.io/calculator-app-101/in.html'
   },
  {name: 'project 4',
-  imgURL: './'
+  imgURL: './',
+  aURL:'#'
  },
  {name: 'project 5',
-  imgURL: './'
+  imgURL: './',
+  aURL:'#'
  },
  {name: 'project 6',
-  imgURL: './'
+  imgURL: './',
+  aURL:'#'
  },
  {name: 'project 7',
-  imgURL: './'
+  imgURL: './',
+  aURL:'#'
  }
 ]
 let galleryContainer = document.querySelector('.img')
@@ -32,7 +39,11 @@ for (let index = 0; index < gallery.length; index++) {
   let div = document.createElement('div')
   let imgdiv = document.createElement("img")
   imgdiv.src = element.imgURL
-  div.appendChild(imgdiv)
+  imgdiv.classList.add("mystyle");
+  let a = document.createElement("a")
+  a.href = element.aURL
+  a.appendChild(imgdiv)
+  div.appendChild(a)
   let name = document.createTextNode(element.name)
   div.appendChild(name)
   galleryContainer.appendChild(div)

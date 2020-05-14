@@ -9,9 +9,13 @@
 .img div{
   border: 1px solid blue;
 }
+.mystyle {
+  width: 100%;
+}
 @media (max-width: 600px){
 .img {
   grid-template-rows: auto;
   grid-template-columns: 1fr;
 }
 }
+
